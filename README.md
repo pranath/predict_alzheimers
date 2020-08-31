@@ -39,7 +39,7 @@ I will be using the "Hippocampus" dataset from the [Medical Decathlon competitio
 
 ## Results
 
-The final model achieved a mean dice score of 1.47 and a mean jaccard score of 0.81 in terms of accuracy for correctly classifying the anterior and posterior volumes of the Hippocampus. The model was then integrated into a clinical viewer to generate automated reports and predictions for Hippocampus volumes submitted via brain MRI scans in a PACS environment. This model can then be used by a clinician to assist with diagnosis.
+The final model achieved a mean dice score of 1.47 and a mean jaccard score of 0.81 in terms of accuracy for correctly classifying the anterior and posterior volumes of the Hippocampus. The model was then integrated into a clinical viewer to generate automated reports and predictions for Hippocampus volumes submitted via brain MRI scans in a PACS environment. This model can then be used by a clinician to assist with diagnosis & prognosis.
 
 #### Showing model deployment in automated report with predictions integrated into medical viewer
 ![title](img/report-ohif-viewer.png)
