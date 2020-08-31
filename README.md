@@ -11,7 +11,7 @@ I will use the dataset that contains the segmentations of the right hippocampus 
 
 After that, I will proceed to integrate the model into a working clinical PACS such that it runs on every incoming study and produces a report with volume measurements.
 
-## The Dataset
+## The Dataset
 
 I will be using the "Hippocampus" dataset from the [Medical Decathlon competition](http://medicaldecathlon.com). This dataset is stored as a collection of NIFTI files, with one file per volume, and one file per corresponding segmentation mask. The original images here are T2 MRI scans of the full brain. 
 
