@@ -31,9 +31,13 @@ I will be using the "Hippocampus" dataset from the [Medical Decathlon competitio
 
 ### June 2020
 
-- [Exploratory Data Analysis of Chest X-ray dataset](https://github.com/pranath/pneumonia_detection/blob/master/EDA.ipynb)
-- [Building & Training Model for Pneumonia Detection From Chest X-Rays]
+- [Exploratory Data Analysis of Hippocampus 3D brain MRI images](https://github.com/pranath/predict_alzheimers/blob/master/eda.ipynb)
+- [Building & Training Model for Hippocampus volume prediction]()
+- [Using model for inference]()
 
 ## Results
 
-1. In the __[first project](https://github.com/pranath/pneumonia_detection/blob/master/Build%20and%20train%20model.ipynb)__ finished in June 2020, the best result was an overall F1 score for predicting Pneumonia of 0.03
+In the initial project finished in July 2020, the best result was an overall F1 score for predicting Pneumonia of 0.03
+
+#### Showing model deployment with predictions integrated into medical viewer
+![title](img/report-ohif-viewer..png)
