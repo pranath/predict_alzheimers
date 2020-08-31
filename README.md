@@ -33,7 +33,7 @@ I will be using the "Hippocampus" dataset from the [Medical Decathlon competitio
 
 - [Exploratory Data Analysis of Hippocampus 3D brain MRI images](https://github.com/pranath/predict_alzheimers/blob/master/eda.ipynb)
 - [Building & Training Model for Hippocampus volume prediction](https://github.com/pranath/predict_alzheimers/blob/master/model/experiments/UNetExperiment.py)
-- [Using model for inference](https://github.com/pranath/predict_alzheimers/blob/master/inference/UNetInferenceAgent.py)
+- [Using model for inference](https://github.com/pranath/predict_alzheimers/blob/master/deployment/inference/UNetInferenceAgent.py)
 
 ## Results
 
