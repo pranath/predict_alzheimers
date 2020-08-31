@@ -8,6 +8,8 @@ In this project I develop a deep learning model to predict Alzheimer's disease u
 
 A radiological study via MRI exam is currently one of the most advanced methods to quantify the disease. In particular, the measurement of hippocampal volume has proven useful to diagnose and track progression in several brain disorders, most notably in AD. Studies have shown a reduced volume of the hippocampus in patients with AD.
 
+But with fewer and fewer trained Radiologists available, and increasing demands for medical imaging services - this presents a huge challenge for medical services.
+
 #### Size and shape of the Hippocampus
 ![title](img/hippo_shape.png)
 
@@ -37,7 +39,7 @@ I will be using the "Hippocampus" dataset from the [Medical Decathlon competitio
 
 ## Results
 
-The final model achieved a mean dice score of 1.47 and a mean jaccard score of 0.81 in terms of accuracy for correctly classifying the anterior and posterior volumes of the Hippocampus. The model was then integrated into a clinical viewer to generate automated reports and predictions for Hippocampus volumes for submitted brain MRI scans.
+The final model achieved a mean dice score of 1.47 and a mean jaccard score of 0.81 in terms of accuracy for correctly classifying the anterior and posterior volumes of the Hippocampus. The model was then integrated into a clinical viewer to generate automated reports and predictions for Hippocampus volumes submitted via brain MRI scans in a PACS environment. This model can then be used by a clinician to assist with diagnosis.
 
 #### Showing model deployment in automated report with predictions integrated into medical viewer
 ![title](img/report-ohif-viewer.png)
