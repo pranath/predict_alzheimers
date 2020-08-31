@@ -3,11 +3,26 @@
 ## Introduction 
 In this project I develop a deep learning model to predict Alzheimer's disease using 3D MRI medical images. Alzheimer's disease (AD) is a progressive neurodegenerative disorder that results in impaired neuronal (brain cell) function and eventually, cell death. For patients exhibiting early symptoms, quantifying disease progression over time can help direct therapy and disease management. 
 
+#### Location of the Hippocampus within the brain
+![title](img/hippo_location.png)
+
 A radiological study via MRI exam is currently one of the most advanced methods to quantify the disease. In particular, the measurement of hippocampal volume has proven useful to diagnose and track progression in several brain disorders, most notably in AD. Studies have shown a reduced volume of the hippocampus in patients with AD.
 
-In this project I will build an end-to-end deep learning/AI system which features a machine learning algorithm that integrates into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, as their studies are committed to the clinical imaging archive.
+#### Size and shape of the Hippocampus
+![title](img/hippo_shape.png)
+
+In this project I will build an end-to-end deep learning/AI system which features a machine learning algorithm that integrates into a clinical-grade viewer and automatically measures hippocampal volumes of new patients from their MRI images, as their studies are committed to the clinical imaging archive.
+
+#### Axial slice of an MRI image of the brain
+![title](img/brain_mri.png)
 
 I will use the dataset that contains the segmentations of the right hippocampus and will use the U-Net deep learning architecture to build a segmentation model.
+
+#### Cropped Hippocampus area from MRI image & predicted Hippocampus anterior (front) volume 
+![title](img/hippo_mri_ant.png)
+
+#### Cropped Hippocampus area from MRI image & predicted Hippocampus posterior (rear) volume 
+![title](img/hippo_mri_post.png)
 
 After that, I will proceed to integrate the model into a working clinical PACS such that it runs on every incoming study and produces a report with volume measurements.
 
