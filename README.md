@@ -21,13 +21,19 @@ I will use the dataset that contains the segmentations of the right hippocampus 
 #### Cropped Hippocampus area from MRI image & predicted Hippocampus anterior (front) volume 
 ![title](img/hippo_mri_ant.png)
 
-#### Cropped Hippocampus area from MRI image & predicted Hippocampus posterior (rear) volume 
-![title](img/hippo_mri_post.png)
-
-After that, I will proceed to integrate the model into a working clinical PACS such that it runs on every incoming study and produces a report with volume measurements.
+After the model is built, I will proceed to integrate the model into a working clinical PACS such that it runs on every incoming study and produces a report with volume measurements.
 
 ## The Dataset
 
 I will be using the "Hippocampus" dataset from the [Medical Decathlon competition](http://medicaldecathlon.com). This dataset is stored as a collection of NIFTI files, with one file per volume, and one file per corresponding segmentation mask. The original images here are T2 MRI scans of the full brain. 
 
+## Key files
 
+### June 2020
+
+- [Exploratory Data Analysis of Chest X-ray dataset](https://github.com/pranath/pneumonia_detection/blob/master/EDA.ipynb)
+- [Building & Training Model for Pneumonia Detection From Chest X-Rays]
+
+## Results
+
+1. In the __[first project](https://github.com/pranath/pneumonia_detection/blob/master/Build%20and%20train%20model.ipynb)__ finished in June 2020, the best result was an overall F1 score for predicting Pneumonia of 0.03
