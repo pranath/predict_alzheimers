@@ -40,4 +40,4 @@ I will be using the "Hippocampus" dataset from the [Medical Decathlon competitio
 In the initial project finished in July 2020, the best result was an overall F1 score for predicting Pneumonia of 0.03
 
 #### Showing model deployment with predictions integrated into medical viewer
-![title](img/report-ohif-viewer..png)
+![title](img/report-ohif-viewer.png)
