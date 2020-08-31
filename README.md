@@ -37,7 +37,7 @@ I will be using the "Hippocampus" dataset from the [Medical Decathlon competitio
 
 ## Results
 
-In the initial project finished in July 2020, the best result was an overall F1 score for predicting Pneumonia of 0.03
+The final model achieved a mean dice score of 1.47 and a mean jaccard score of 0.81 in terms of accuracy for correctly classifying the anterior and posterior volumes of the Hippocampus. The model was then integrated into a clinical viewer to generate automated reports and predictions for Hippocampus volumes for submitted brain MRI scans.
 
-#### Showing model deployment with predictions integrated into medical viewer
+#### Showing model deployment in automated report with predictions integrated into medical viewer
 ![title](img/report-ohif-viewer.png)
